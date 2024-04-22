@@ -24,7 +24,7 @@
 
 
 #### Запустить решение
-%%cmd
-cd SteamSpider
+%%cmd \
+cd SteamSpider \
 scrapy crawl SteamSpider -O items.json
 
