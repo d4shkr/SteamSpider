@@ -1,4 +1,4 @@
-Парсинг [Steam](https://store.steampowered.com/) с помощью Scrapy
+#### Парсинг [Steam](https://store.steampowered.com/) с помощью Scrapy
 
 По запросам достаются все игры на первых 2 страницах.
 
@@ -22,4 +22,9 @@
 
 Оставляем игры, выпущенные после 2000 года, сохраняем в формате json
 
+
+#### Запустить решение
+%%cmd
+cd SteamSpider
+scrapy crawl SteamSpider -O items.json
 
